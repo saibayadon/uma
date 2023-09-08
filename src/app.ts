@@ -20,6 +20,7 @@ export const lambdaHandler = async (
   event: APIGatewayProxyEvent,
   context: APIGatewayEventRequestContext
 ): Promise<APIGatewayProxyResult> => {
+  console.log(event, context);
   return {
     statusCode: 200,
     body: JSON.stringify({
