@@ -3,17 +3,17 @@
 Simple AWS Lambda Starter Kit using SAM (https://aws.amazon.com/serverless/sam/).
 
 ### Defaults
-- **TypeScript 5.0.4**
+- **TypeScript 5.2.2**
 
 ### How to run locally
-- `yarn install`
-- `yarn build`
+- `bun install`
+- `bun run build`
 - `sam local invoke "HelloWorldFunction" --no-event`
 
 ### Build and deploy
-- `yarn build` -> Will output a build folder
+- `bun run build` -> Will output a build folder
 - `sam deploy --guided` -> Will walk you through deployment steps
 
 ### Linting
 **ESLint** (Using TypeScript defaults)
-- `yarn lint` -> Will lint all code under `src` folder.
+- `bun run lint` -> Will lint all code under `src` folder.
